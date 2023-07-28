@@ -1,0 +1,113 @@
+html {
+    font-size: 62.5%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 1.5rem;
+}
+
+.container {
+    max-width: 750px;
+    display: flex;
+}
+
+.container .column {
+    max-width: 250px;
+    height: 400px;
+    padding: 35px;
+}
+
+.container .column.sedans {
+    background-color: var(--sedans-color);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.container .column img{
+    width: 50px;
+}
+
+.container .column .title{
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-top: 20px;
+    font-size: 3rem;
+}
+
+.container .column .description {
+    color: var(--text-color);
+    text-align: start;
+    margin-top: 25px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding-right: 12px;
+    line-height: 20px;
+}
+
+.container .column.sedans .btn {
+    margin-top: 70px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: var(--sedans-color);
+    transition: 0.3s ease-in-out;
+}
+
+.container .column.sedans .btn:hover {
+    color: var(--text-color);
+    border: solid 1px var(--border-btn);
+    background-color: var(--sedans-color);
+}
+
+.container .column.suvs {
+    background-color: var(--suvs-color);
+}
+
+.container .column.suvs .btn {
+    margin-top: 70px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: var(--suvs-color);
+    transition: 0.3s ease-in-out;
+}
+
+.container .column.suvs .btn:hover {
+    color: var(--text-color);
+    border: solid 1px var(--border-btn);
+    background-color: var(--suvs-color);
+}
+
+.container .column.luxury {
+    background-color: var(--luxury-color);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.container .column.luxury .btn {
+    margin-top: 70px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: var(--luxury-color);
+    transition: 0.3s ease-in-out;
+}
+
+.container .column.luxury .btn:hover {
+    color: var(--text-color);
+    border: solid 1px var(--border-btn);
+    background-color: var(--luxury-color);
+}

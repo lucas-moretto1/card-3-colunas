@@ -1,0 +1,34 @@
+@media (max-width: 760px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        max-height: 100vh;
+    }
+
+    .container .column{
+        height: 325px;
+    }
+
+    .container .column.sedans {
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 10px;
+    }
+
+    .container .column.sedans .title, .container .column.suvs .title, .container .column.luxury .title {
+        margin-top: 10px;
+    }
+
+    .container .column.sedans .description, .container .column.suvs .description, .container .column.luxury .description {
+        margin-top: 10px;
+        font-size: 1.1rem;
+    }
+
+    .container .column.sedans .btn, .container .column.suvs .btn, .container .column.luxury .btn {
+        margin-top: 15px;
+    }
+
+    .container .column.luxury {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+    }
+}
